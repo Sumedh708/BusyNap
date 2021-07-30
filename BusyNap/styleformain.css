@@ -1,0 +1,78 @@
+body{
+    background: url("hands.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    background
+}
+.login{
+    display: block;
+    position: absolute;
+    top: 3%;
+    left: 70%;
+    text-align:center;
+    box-sizing: border-box;
+    width: 125px;
+    height: 55px;
+    background:  white;
+    border: 3px solid;
+}
+.signup{
+    display: block;
+    position: absolute;
+    top: 3%;
+    left: 86%;
+    text-align:center;
+    box-sizing: border-box;
+    width: 125px;
+    height: 55px;
+    text-size-adjust: 10;
+    background:  white;
+    border: 3px solid;
+}
+
+.login{
+    animation: reappear 3s infinite ;
+}
+.signup{
+    animation: reappear 3s infinite ;
+}
+
+.login:hover{
+    background: white;
+    animation: none;
+    text-decoration: solid 5px;
+    width: 135px;
+    height: 65px;
+}
+.signup:hover{
+    background: white;
+    animation: none;
+    width: 135px;
+    height: 65px;
+}
+
+@keyframes reappear{
+    25%{
+        background: orange;
+        border-color: orange;
+    }
+    50%{
+        background:  #87CEEB;
+        border-color: #87CEEB;
+    }
+    75%{
+        background: green;
+        border-color: green;
+    }
+    
+    }
+    .set{
+        position: absolute;
+        top: 3%;
+        left: 40%;
+       }
+.sections{
+    position: absolute;
+    top: 19%;
+    left: 3%;
+}
